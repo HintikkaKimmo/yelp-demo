@@ -1,3 +1,4 @@
 class Review < ActiveRecord::Base
-  belongs_to :user
+  belongs_to :users
+  belongs_to :restaurants
 end
